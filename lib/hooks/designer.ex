@@ -1,11 +1,11 @@
-defmodule Teacher.Designer do
+defmodule Hooks.Designer do
 
   def subscribe do
-    Phoenix.PubSub.subscribe(Teacher.PubSub, "designer")
+    Phoenix.PubSub.subscribe(Hooks.PubSub, "designer")
   end
 
   def broadcast_background_color(color) do
-    Phoenix.PubSub.broadcast(Teacher.PubSub, "designer", {:update_background, color})
+    Phoenix.PubSub.broadcast(Hooks.PubSub, "designer", {:update_background, color})
   end
 
 end

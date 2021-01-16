@@ -1,7 +1,7 @@
 defmodule HooksWeb.PageLive do
   use HooksWeb, :live_view
 
-  alias Teacher.Designer
+  alias Hooks.Designer
 
   @impl true
   def mount(_params, _session, socket) do
