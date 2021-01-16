@@ -13,7 +13,7 @@ const BackgroundColorPicker = {
             let color = newColor.toHEXA().toString()
             let container = document.getElementsByClassName("container")[0]
 
-            container.style["background"] = color
+            this.pushEvent("background_color", {color: color})
         })
     }
 }
