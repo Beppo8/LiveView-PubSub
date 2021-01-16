@@ -1,6 +1,7 @@
 /* This file is for your main application css. */
 @import "./styles.css";
 @import "../node_modules/nprogress/nprogress.css";
+@import '../node_modules/@simonwep/pickr/dist/themes/nano.min.css';
 
 /* LiveView specific classes for your customizations */
 .phx-no-feedback.invalid-feedback,
