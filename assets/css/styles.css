@@ -1,0 +1,16 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+::selection{
+    background-color: #ffec6e;
+    color: #000000;
+}
+
+::-moz-selection {
+    background: #46c2ca;
+    color: #000;
+}
